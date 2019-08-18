@@ -5,10 +5,9 @@ class Application
     resp = Rack::Response.new
     req = Rack::Request.new(env)
     
-    item_name = req.
-    
     if req.path.match(/items/) 
-    
+      item_name = req.path
+
     end
   end
   
